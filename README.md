@@ -18,13 +18,13 @@ This calculator allows the user to perform **addition, subtraction, multiplicati
 ## 📂 Project Structure
 Simple_Calculator/
 │
-├─ simple_Calculator.html # Main HTML file
-├─ outputs/ # Screenshots of calculator results
-│ ├─ addition.png
-│ ├─ subtraction.png
-│ ├─ multiplication.png
-│ ├─ division.png
-│ └─ divisionByZero.png
+├─ simple_Calculator.html      # Main HTML file
+├─ outputs/                    # Screenshots of calculator results
+│   ├─ addition.png
+│   ├─ subtraction.png
+│   ├─ multiplication.png
+│   ├─ division.png
+│   └─ divisionByZero.png
 
 ---
 
