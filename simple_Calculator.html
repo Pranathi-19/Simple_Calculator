@@ -1,0 +1,75 @@
+<div style="color: blueviolet;">
+<script>
+
+function validation(operator){
+let number1 = parseFloat(document.getElementById("number1").value);
+let number2 = parseFloat(document.getElementById("number2").value);
+
+if(isNaN(number1) || isNaN(number2)){
+document.getElementById("result_id").innerHTML="Please Enter numbers only";
+}
+else{
+calculate(operator);
+}
+}
+
+function calculate(operator){
+let number1 = parseFloat(document.getElementById("number1").value);
+let number2 = parseFloat(document.getElementById("number2").value);
+let result;
+
+if(operator == "+"){
+result = number1 + number2;
+document.getElementById("result_id").innerHTML="Addition of the numbers is: " + result;
+}
+else if(operator == "-"){
+result = number1 - number2;
+document.getElementById("result_id").innerHTML="Subtraction of the numbers is: " + result;
+}
+else if(operator == "*"){
+result = number1 * number2;
+document.getElementById("result_id").innerHTML="Multiplication of the numbers is: " + result;
+}
+else if(operator == "/"){
+if(number2 == 0){
+document.getElementById("result_id").innerHTML="Division by zero is not allowed";
+}
+else{
+result = number1 / number2;
+document.getElementById("result_id").innerHTML="Division of the numbers is: " + result;
+}
+}
+}
+
+</script>
+</div>
+
+
+<div style="text-align: center;">
+<form>
+
+<h2 style="color: blue;">Simple Calculator</h2>
+
+<div>
+<label>Enter number1</label>
+<input type="text" id="number1" name="number1"/>
+</div>
+
+<div>
+<label>Enter number2</label>
+<input type="text" id="number2" name="number2"/>
+</div>
+
+<br>
+
+<div>
+<input type="button" value="+" onclick="validation('+')" />
+<input type="button" value="-" onclick="validation('-')" />
+<input type="button" value="*" onclick="validation('*')" />
+<input type="button" value="/" onclick="validation('/')" />
+</div>
+
+<h4 id="result_id">Result will be displayed:</h4>
+
+</form>
+</div>
