@@ -41,8 +41,8 @@ Simple_Calculator/
 
 ### 1. Addition
 
-- Input: `10` and `5` → Click `+`  
-- Output: `Addition of the numbers is: 15`  
+- Input: `54` and `67` → Click `+`  
+- Output: `Addition of the numbers is: 121`  
 
 ![Addition](outputs/addition.png)
 
@@ -50,8 +50,8 @@ Simple_Calculator/
 
 ### 2. Subtraction
 
-- Input: `10` and `5` → Click `-`  
-- Output: `Subtraction of the numbers is: 5`  
+- Input: `46` and `30` → Click `-`  
+- Output: `Subtraction of the numbers is: 16`  
 
 ![Subtraction](outputs/subtraction.png)
 
@@ -59,8 +59,8 @@ Simple_Calculator/
 
 ### 3. Multiplication
 
-- Input: `10` and `5` → Click `*`  
-- Output: `Multiplication of the numbers is: 50`  
+- Input: `76` and `2` → Click `*`  
+- Output: `Multiplication of the numbers is: 152`  
 
 ![Multiplication](outputs/multiplication.png)
 
@@ -68,8 +68,8 @@ Simple_Calculator/
 
 ### 4. Division
 
-- Input: `10` and `5` → Click `/`  
-- Output: `Division of the numbers is: 2`  
+- Input: `45` and `25` → Click `/`  
+- Output: `Division of the numbers is: 1.8`  
 
 ![Division](outputs/division.png)
 
@@ -77,7 +77,7 @@ Simple_Calculator/
 
 ### 5. Division by Zero
 
-- Input: `10` and `0` → Click `/`  
+- Input: `25` and `0` → Click `/`  
 - Output: `Division by zero is not allowed`  
 
 ![Division by Zero](outputs/divisionByZero.png)
